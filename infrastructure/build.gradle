@@ -1,0 +1,7 @@
+plugins {
+}
+
+dependencies {
+    implementation project(':domain')
+    implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter:0.8.1'
+}
